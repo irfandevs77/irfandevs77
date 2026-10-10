@@ -1,0 +1,13 @@
+{
+  "name": "irfan-developer-portfolio-admin-tools",
+  "private": true,
+  "scripts": {
+    "set-admin": "node scripts/set-admin-claim.cjs"
+  },
+  "dependencies": {
+    "firebase-admin": "^14.5.0"
+  },
+  "devDependencies": {
+    "yazl": "^3.3.1"
+  }
+}

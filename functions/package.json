@@ -1,0 +1,17 @@
+{
+  "name": "portfolio-functions",
+  "description": "Server-side Firebase integrations for the portfolio.",
+  "private": true,
+  "engines": {
+    "node": "20"
+  },
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@google-analytics/data": "^5.2.0",
+    "firebase-admin": "^13.0.0",
+    "firebase-functions": "^6.0.0"
+  }
+}
